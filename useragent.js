@@ -482,6 +482,7 @@ define("useragent", [], function() {
         "chrome": {"type": "desktop", "browser": "Chrome", "browserVersion": "", "browserVersionKey": "chrome/"},
         "trident/4.0": {"browserVersion": "8.0"},
         "msie": {"type": "desktop", "browser": "MSIE", "browserVersionKey": "msie "},
+        "trident/": {"browser": "MSIE", "browserVersionKey": "rv:"},
         "safari/85": {"browserVersion": "1.0"},
         "safari/125": {"browserVersion": "1.2"},
         "safari/312": {"browserVersion": "1.3"},
